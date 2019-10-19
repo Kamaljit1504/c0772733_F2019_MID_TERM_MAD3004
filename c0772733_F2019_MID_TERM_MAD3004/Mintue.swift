@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Mintue.swift
 //  c0772733_F2019_MID_TERM_MAD3004
 //
 //  Created by MacStudent on 2019-10-19.
@@ -7,5 +7,10 @@
 //
 
 import Foundation
-let formatter = DateFormatter()
-formatter.dateFormat = "yyyy/MM/dd"
+extension Float
+{
+    func minuteF() -> String {
+        return "\(self) Minutes used"
+    }
+    
+}

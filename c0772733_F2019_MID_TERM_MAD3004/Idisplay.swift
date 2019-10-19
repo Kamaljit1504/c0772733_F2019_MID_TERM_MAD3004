@@ -7,4 +7,9 @@
 //
 
 import Foundation
-import Foundation
+
+protocol IDisplay
+{
+    func iDisplay()
+    
+}
